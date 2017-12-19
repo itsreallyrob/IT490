@@ -44,7 +44,7 @@ session_start();
 
 				<br><br>
 
-				<form method="POST" action="buttons.php">
+				<form method="POST" action="testver.php">
 					<button type="signin" class="button2" name="selectb" value="test">Click to Test</button>
 				</form>
 				
