@@ -5,9 +5,9 @@ session_start();
 	require_once('get_host_info.inc');
 	require_once('rabbitMQLib.inc');
 
-  $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+  $client = new rabbitMQClient("testRabbitMQauth.ini","testServer");
   $request = array();
-  $request['type'] = "Online test";
+  $request['type'] = "login";
   $request['username'] = $_SESSION['email'];
   $request['password'] = $_SESSION['password'];
   //$request['message'] = $msg;

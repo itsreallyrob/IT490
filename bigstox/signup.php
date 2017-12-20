@@ -50,7 +50,7 @@ else
 
 				</br></br>
 
-				<form method="POST" action="verification.php">
+				<form method="POST" action="authorization.php">
 					<div class="inputs">
 						First Name: <input class="inputsignup" type="text" name="fname" value="<?php echo $_SESSION['fname'];?>"><br>
 						Last Name: <input class="inputsignup"  type="text" name="lname" value="<?php echo $_SESSION['lname'];?>"><br>
@@ -59,7 +59,7 @@ else
 					</div>
 
 
-					<button type="signup" class="button">Sign Up</button>     
+					<button type="signup" class="button" name="type" value="register" >Sign Up</button>     
 
 
 				</form>
