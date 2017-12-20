@@ -49,14 +49,14 @@ else
 
 				</br></br>
 
-				<form method="POST" action="authorization.php">
+				<form method="POST" action="validation.php">
 					<div class="inputs">
 						E-Mail: <input class="inputsignup"  type="text" name="email" id="email" value="<?php echo $_SESSION['email'];?>" ><br>
 						Password: <input class="inputsignup"  type="password" name="password" id="password"><br><br>
 					</div>
 
 
-					<button type="signup" class="button" name="type" value="login">Sign In</button>      
+					<button type="signup" class="button">Sign In</button>      
 
 
 				</form>
